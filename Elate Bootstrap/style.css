@@ -1,0 +1,24 @@
+.header{
+    background-color: rgb(235, 228, 228);
+}
+.logo{
+    opacity: 0.3;
+}
+.elateNav{
+    font-size: 12px;
+}
+#btnSeeMore{
+    border-radius: 32%;
+    width: 100px;
+    height: 40px;
+}
+.imgSeeMore{
+    width: 500px;
+}
+a{
+    font-size: 12px;
+    color: rgb(126, 122, 122)!important;
+}
+.futer{
+    background-color: rgb(235, 228, 228);
+}
