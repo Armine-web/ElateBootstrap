@@ -76,7 +76,7 @@ h2, h1, h3, h4, h5, h6{
 }
 
 .Features{
-    box-shadow: 0 0  10px rgba(201, 197, 197, 0.5);   
+    box-shadow: 0 0  10px rgba(201, 197, 197, 0.5);  
 }
 .viber{
     background-color: rgb(245, 185, 32);
@@ -89,7 +89,7 @@ h2, h1, h3, h4, h5, h6{
 }
 .viber i{
     margin-left: 8px;
-    font-size: 24px;
+    font-size: 22px;
 }
 .viber a{
     color: black;
@@ -121,10 +121,10 @@ h2, h1, h3, h4, h5, h6{
 .navpage a:hover{
     border-bottom: solid 2px rgb(247, 205, 99);
 }
-form .navForm{
+.navForm{
     padding: 5px;
     border-radius: 32px;
-    width:194px;
+    min-width: 195px;
     height: 48px;
     box-shadow: 0 0 10px rgba(221, 213, 213, 0.5);
 }
@@ -135,6 +135,7 @@ button{
 .Furniture{
     box-shadow: 0 0 10px rgba(221, 213, 213, 0.5);
     border-radius: 20px;
+    max-width: 1200px;
 }
 .featuresTitle{
     font-size: 16px;
@@ -146,3 +147,15 @@ button{
     height: 48px;
     border-radius: 32px;
 }
+.coruselImage{
+    border-radius: 15px;
+}
+@media screen and(max-width: 760px) {
+    .navForm{
+        min-width: 155px;
+        height: 48px;
+    }
+
+}
+
+
