@@ -111,6 +111,92 @@ h2, h1, h3, h4, h5, h6{
     appearance: none;
 
 }
+.Renting select{
+    position: relative;
+}
+.Renting::after{
+    right: 35px;
+    bottom: 14px;
+    position: absolute;
+    content: "\2228";
+    font-weight: bold;
+}
+.City select{
+    position: relative;
+}
+.City::after{
+    right: 35px;
+    bottom: 14px;
+    position: absolute;
+    content: "\2228";
+    font-weight: bold;
+}
+.Region select{
+    position: relative;
+}
+.Region::after{
+    right: 35px;
+    bottom: 14px;
+    position: absolute;
+    content: "\2228";
+    font-weight: bold;
+}
+.Rooms select{
+    position: relative;
+}
+.Rooms::after{
+    right: 35px;
+    bottom: 14px;
+    position: absolute;
+    content: "\2228";
+    font-weight: bold;
+}
+.navinput select{
+    position: relative;
+}
+.navinput::after{
+    right: 35px;
+    bottom: 8px;
+    position: absolute;
+    content: "\2228";
+    font-weight: bold;
+}
+.navinput::before{
+    transform: rotate(180deg);
+    right: 35px;
+    bottom: 20px;
+    position: absolute;
+    content: "\2228";
+    font-weight: bold;
+}
+.Layout select{
+    position: relative;
+}
+.Layout::after{
+    right: 35px;
+    bottom: 14px;
+    position: absolute;
+    content: "\2228";
+    font-weight: bold;
+}
+.Price select{
+    position: relative;
+}
+.Price::after{
+    right: 35px;
+    bottom: 8px;
+    position: absolute;
+    content: "\2228";
+    font-weight: bold;
+}
+.Price::before{
+    transform: rotate(180deg);
+    right: 35px;
+    bottom: 20px;
+    position: absolute;
+    content: "\2228";
+    font-weight: bold;
+}
 .usd::after{
     left: 45px;
     top: 5px;
@@ -121,11 +207,13 @@ h2, h1, h3, h4, h5, h6{
 .navpage a:hover{
     border-bottom: solid 2px rgb(247, 205, 99);
 }
+
 .navForm{
-    padding: 5px;
+    width: 100%;
+    padding: 12px 20px;
     border-radius: 32px;
-    min-width: 195px;
-    height: 48px;
+    outline: none;
+    appearance: none;
     box-shadow: 0 0 10px rgba(221, 213, 213, 0.5);
 }
 button{
